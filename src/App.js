@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import DemoCallback from './components/hooks/Callback/DemoCallback';
+import DemoClassCountEffect from './components/hooks/Effects/DemoClassCount';
+import DemoFunCount from './components/hooks/Effects/DemoFunCount';
+import DemoRef from './components/hooks/Ref/DemoRef';
+import DemoClassCount from './components/hooks/State/DemoClassCount';
+import DemoUseState from './components/hooks/State/DemoUseState';
+import ThisTest from './components/Test/ThisTest';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ThisTest/>
+      {/* <DemoRef/> */}
+      {/* <DemoUseState/> */}
+      {/* <DemoClassCount/> */}
+      {/* <DemoClassCountEffect/> */}
+      {/* <DemoFunCount/> */}
     </div>
   );
 }
